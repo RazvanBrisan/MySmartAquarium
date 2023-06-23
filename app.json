@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "MySmartAquarium",
+    "slug": "MySmartAquarium",
+    "version": "1.0.0",
+    "description": "Manage your fish tank",
+    "orientation": "portrait",
+    "icon": "./assets/betta-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.razvanbrisan.MySmartAquarium"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3e38b356-c1e7-486e-9349-c2e3b1811c3f"
+      }
+    }
+  }
+}
